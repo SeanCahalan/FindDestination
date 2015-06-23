@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         ListView listview = (ListView) findViewById(R.id.listView);
         listview.setOnItemClickListener(this);
     }
-//second comment added
+
     public void onItemClick(AdapterView<?> l, View v, int position, long id) {
         Log.d(TAG, "Here we go");
         int truePosition = position;
