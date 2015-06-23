@@ -32,7 +32,7 @@ public class DestinationActivity extends Activity implements BeaconConsumer {
         super.onCreate(savedInstanceState);
 
         Bundle extras = getIntent().getExtras();
-
+        Log.i(TAG, "Github fetching and running code");
         int placeholderPosition = extras.getInt("position");
         position = placeholderPosition;
 
