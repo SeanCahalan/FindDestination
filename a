@@ -1,0 +1,13 @@
+[1mdiff --git a/app/src/main/java/com/mitel/briggsp/finddestination/MainActivity.java b/app/src/main/java/com/mitel/briggsp/finddestination/MainActivity.java[m
+[1mindex d8931c0..53dc270 100644[m
+[1m--- a/app/src/main/java/com/mitel/briggsp/finddestination/MainActivity.java[m
+[1m+++ b/app/src/main/java/com/mitel/briggsp/finddestination/MainActivity.java[m
+[36m@@ -32,7 +32,7 @@[m [mpublic class MainActivity extends Activity implements AdapterView.OnItemClickLis[m
+         ListView listview = (ListView) findViewById(R.id.listView);[m
+         listview.setOnItemClickListener(this);[m
+     }[m
+[31m-//second comment added[m
+[32m+[m
+     public void onItemClick(AdapterView<?> l, View v, int position, long id) {[m
+         Log.d(TAG, "Here we go");[m
+         int truePosition = position;[m
