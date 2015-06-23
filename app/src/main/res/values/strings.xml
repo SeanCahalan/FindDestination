@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FindDestination</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array
+        name="section">
+        <item >Room</item>
+        <item >Lobby</item>
+        <item >Ice Machine</item>
+        <item >Pool</item>
+    </string-array>
+    <string name="title_activity_destination">DestinationActivity</string>
+</resources>
