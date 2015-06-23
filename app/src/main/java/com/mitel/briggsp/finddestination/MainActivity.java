@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         extras.putInt("position", truePosition);
         intent.putExtras(extras);
         this.startActivity(intent);
+        Log.i(TAG, "OMG");
 
     }
 
