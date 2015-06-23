@@ -20,7 +20,7 @@ import org.altbeacon.beacon.Region;
 
 import java.util.Collection;
 
-
+//made a comment
 public class DestinationActivity extends Activity implements BeaconConsumer {
     protected static final String TAG = "Myah";
     int position = 0;
